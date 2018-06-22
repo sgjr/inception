@@ -108,7 +108,7 @@ bool init_errmessage(void)
   SERVER_SETMSG(ER_FOREIGN_KEY, "Foreign key is not allowed in table \'%-.64s\'.");
   SERVER_SETMSG(ER_TOO_MANY_KEY_PARTS, "Too many key parts in Key \'%-.64s\' in table \'%-.64s\' specified, max %d parts allowed.");
   SERVER_SETMSG(ER_TOO_LONG_IDENT, "Identifier name \'%-.100s\' is too long.");
-  SERVER_SETMSG(ER_UDPATE_TOO_MUCH_ROWS, "Update rows more then %d.");
+  SERVER_SETMSG(ER_UDPATE_TOO_MUCH_ROWS, "Update rows more than %d.");
   SERVER_SETMSG(ER_WRONG_NAME_FOR_INDEX, "Incorrect index name \'%-.100s\' in table \'%-.64s\'.");
   SERVER_SETMSG(ER_TOO_MANY_KEYS, "Too many keys specified in table \'%-.64s\', max %d keys allowed.");
   SERVER_SETMSG(ER_NOT_SUPPORTED_KEY_TYPE, "Not supported key type: \'%-.64s\'.");

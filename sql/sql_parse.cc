@@ -10476,6 +10476,10 @@ int mysql_execute_alter_table_osc(
     sprintf(cmd_line, "%f", thd->variables.inception_osc_chunk_time);
     oscargv[count++] = strdup(cmd_line);
 
+    oscargv[count++] = strdup("--chunk-size");
+    sprintf(cmd_line, "%lu", thd->variables.inception_osc_chunk_size);
+    oscargv[count++] = strdup(cmd_line);
+
     oscargv[count++] = strdup("--critical-load");
     sprintf(cmd_line, "Threads_connected:%lu,Threads_running:%lu", 
         thd->variables.inception_osc_critical_connected, 
@@ -10520,8 +10524,7 @@ int mysql_execute_alter_table_osc(
     oscargv[count++] = strdup(cmd_line);
 
     oscargv[count++] = strdup("--no-version-check");
-    sprintf(cmd_line, "--recursion-method=%s", 
-        osc_recursion_method[thd->variables.inception_osc_recursion_method]);
+    sprintf(cmd_line, "--recursion-method=%s", inception_osc_recursion_method);
     oscargv[count++] = strdup(cmd_line);
 
     //这个参数就可以直接使用默认值
@@ -10543,6 +10546,22 @@ int mysql_execute_alter_table_osc(
     sprintf(cmd_line, "D=%s,t=%s", sql_cache_node->dbname, sql_cache_node->tablename);
     oscargv[count++] = strdup(cmd_line);
     oscargv[count++] = NULL;
+
+
+    DYNAMIC_STRING command;
+    init_dynamic_string(&command, oscargv[0],1024,1024);
+
+    for(int i=1; i<count-1;i++){
+        dynstr_append(&command, " ");
+        dynstr_append(&command, oscargv[i]);
+    }
+
+    if(!opt_log_raw)
+        general_log_write(thd, COM_QUERY, command.str, command.length);
+
+    if(!opt_log_raw)
+        general_log_write(thd, COM_QUERY, sql_cache_node->oscoutput->str, sql_cache_node->oscoutput->str_len);
+    dynstr_free(&command);
 
     sql_cache_node->oscoutput = (str_t*)my_malloc(sizeof(str_t), MY_ZEROFILL);
     sql_cache_node->oscoutput = str_init(sql_cache_node->oscoutput);

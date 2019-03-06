@@ -668,3 +668,6 @@ extern const char *MY_BIND_ALL_ADDRESSES;
 #undef ENABLED_DEBUG_SYNC
 
 #endif /* MYSQLD_INCLUDED */
+
+extern char* inception_osc_recursion_method;
+

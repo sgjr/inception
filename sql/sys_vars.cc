@@ -1022,11 +1022,11 @@ static Sys_var_enum Sys_inception_alter_foreign_keys_method(
     osc_alter_foreign_keys_method, DEFAULT(alter_foreign_keys_method_none), 
     NO_MUTEX_GUARD, NOT_IN_BINLOG);
 
-const char *osc_recursion_method[]= {"processlist", "hosts", "none", NullS};
-static Sys_var_enum Sys_inception_osc_recursion_method(
-    "inception_osc_recursion_method",
-    "Preferred recursion method used to find slaves.",
-    SESSION_VAR(inception_osc_recursion_method), CMD_LINE(REQUIRED_ARG),
-    osc_recursion_method, DEFAULT(recursion_method_processlist), 
-    NO_MUTEX_GUARD, NOT_IN_BINLOG);
+
+static Sys_var_charptr Sys_inception_osc_recursion_method(
+        "inception_osc_recursion_method",
+        "Preferred recursion method used to find slaves.",
+        READ_ONLY GLOBAL_VAR(inception_osc_recursion_method), CMD_LINE(REQUIRED_ARG),
+        IN_FS_CHARSET, DEFAULT(0),
+        NO_MUTEX_GUARD, NOT_IN_BINLOG);
 

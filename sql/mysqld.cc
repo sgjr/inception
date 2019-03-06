@@ -6277,3 +6277,5 @@ static int fix_paths(void)
 
   return 0;
 }
+
+char* inception_osc_recursion_method= NULL;

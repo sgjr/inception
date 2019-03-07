@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libmysqlclient.a  CMakeFiles/mysqlclient.dir/mysqlclient_depends.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libmysqlclient.a

@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -fno-strict-aliasing -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/gen_lex_hash.dir/gen_lex_hash.cc.o  -o gen_lex_hash 

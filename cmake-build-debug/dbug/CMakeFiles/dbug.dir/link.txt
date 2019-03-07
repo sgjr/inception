@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libdbug.a  CMakeFiles/dbug.dir/dbug.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libdbug.a

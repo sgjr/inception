@@ -10559,10 +10559,6 @@ int mysql_execute_alter_table_osc(
     if(!opt_log_raw)
         general_log_write(thd, COM_QUERY, command.str, command.length);
 
-    if(!opt_log_raw)
-        general_log_write(thd, COM_QUERY, sql_cache_node->oscoutput->str, sql_cache_node->oscoutput->str_len);
-    dynstr_free(&command);
-
     sql_cache_node->oscoutput = (str_t*)my_malloc(sizeof(str_t), MY_ZEROFILL);
     sql_cache_node->oscoutput = str_init(sql_cache_node->oscoutput);
     sql_cache_node->oscpercent = 0;
@@ -10580,6 +10576,11 @@ int mysql_execute_alter_table_osc(
             tmp = my_fgets (out, out_len, proc.pipe());
         }
     }
+
+    if(!opt_log_raw)
+        general_log_write(thd, COM_QUERY, sql_cache_node->oscoutput->str,
+                          sql_cache_node->oscoutput->str_len);
+    dynstr_free(&command);
 
     for (int j=0; j<count-1; j++)
         free(oscargv[j]);

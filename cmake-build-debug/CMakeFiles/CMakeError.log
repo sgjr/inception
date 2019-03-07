@@ -1,0 +1,2626 @@
+Determining if the function __infinity exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15ebd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_15ebd.dir/build.make CMakeFiles/cmTC_15ebd.dir/build
+Building C object CMakeFiles/cmTC_15ebd.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__infinity -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_15ebd.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15ebd
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15ebd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=__infinity -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_15ebd.dir/CheckFunctionExists.c.o  -o cmTC_15ebd 
+Undefined symbols for architecture x86_64:
+  "___infinity", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_15ebd] Error 1
+make: *** [cmTC_15ebd/fast] Error 2
+
+
+Determining if the function __infinity exists in the m failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f678f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f678f.dir/build.make CMakeFiles/cmTC_f678f.dir/build
+Building C object CMakeFiles/cmTC_f678f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__infinity -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_f678f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f678f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f678f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=__infinity -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f678f.dir/CheckFunctionExists.c.o  -o cmTC_f678f -lm 
+Undefined symbols for architecture x86_64:
+  "___infinity", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f678f] Error 1
+make: *** [cmTC_f678f/fast] Error 2
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68425/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_68425.dir/build.make CMakeFiles/cmTC_68425.dir/build
+Building C object CMakeFiles/cmTC_68425.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_68425.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_68425
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68425.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_68425.dir/CheckFunctionExists.c.o  -o cmTC_68425 
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_68425] Error 1
+make: *** [cmTC_68425/fast] Error 2
+
+
+Determining if the function gethostbyname_r exists in the nsl_r failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93182/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_93182.dir/build.make CMakeFiles/cmTC_93182.dir/build
+Building C object CMakeFiles/cmTC_93182.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_93182.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93182
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93182.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_93182.dir/CheckFunctionExists.c.o  -o cmTC_93182 -lnsl_r 
+ld: library not found for -lnsl_r
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_93182] Error 1
+make: *** [cmTC_93182/fast] Error 2
+
+
+Determining if the function gethostbyname_r exists in the nsl failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b310e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b310e.dir/build.make CMakeFiles/cmTC_b310e.dir/build
+Building C object CMakeFiles/cmTC_b310e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b310e.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b310e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b310e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b310e.dir/CheckFunctionExists.c.o  -o cmTC_b310e -lnsl 
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b310e] Error 1
+make: *** [cmTC_b310e/fast] Error 2
+
+
+Determining if files crypt.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_725c4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_725c4.dir/build.make CMakeFiles/cmTC_725c4.dir/build
+Building C object CMakeFiles/cmTC_725c4.dir/HAVE_CRYPT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_725c4.dir/HAVE_CRYPT_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_CRYPT_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_CRYPT_H.c:2:10: fatal error: 'crypt.h' file not found
+#include <crypt.h>
+         ^~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_725c4.dir/HAVE_CRYPT_H.c.o] Error 1
+make: *** [cmTC_725c4/fast] Error 2
+
+Source:
+/* */
+#include <crypt.h>
+
+
+int main(void){return 0;}
+
+Determining if files floatingpoint.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae284/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ae284.dir/build.make CMakeFiles/cmTC_ae284.dir/build
+Building C object CMakeFiles/cmTC_ae284.dir/HAVE_FLOATINGPOINT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ae284.dir/HAVE_FLOATINGPOINT_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_FLOATINGPOINT_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_FLOATINGPOINT_H.c:2:10: fatal error: 'floatingpoint.h' file not found
+#include <floatingpoint.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ae284.dir/HAVE_FLOATINGPOINT_H.c.o] Error 1
+make: *** [cmTC_ae284/fast] Error 2
+
+Source:
+/* */
+#include <floatingpoint.h>
+
+
+int main(void){return 0;}
+
+Determining if files fpu_control.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36ef6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_36ef6.dir/build.make CMakeFiles/cmTC_36ef6.dir/build
+Building C object CMakeFiles/cmTC_36ef6.dir/HAVE_FPU_CONTROL_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_36ef6.dir/HAVE_FPU_CONTROL_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_FPU_CONTROL_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_FPU_CONTROL_H.c:2:10: fatal error: 'fpu_control.h' file not found
+#include <fpu_control.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_36ef6.dir/HAVE_FPU_CONTROL_H.c.o] Error 1
+make: *** [cmTC_36ef6/fast] Error 2
+
+Source:
+/* */
+#include <fpu_control.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53698/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_53698.dir/build.make CMakeFiles/cmTC_53698.dir/build
+Building C object CMakeFiles/cmTC_53698.dir/HAVE_IEEEFP_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_53698.dir/HAVE_IEEEFP_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c:2:10: fatal error: 'ieeefp.h' file not found
+#include <ieeefp.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_53698.dir/HAVE_IEEEFP_H.c.o] Error 1
+make: *** [cmTC_53698/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ad2d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9ad2d.dir/build.make CMakeFiles/cmTC_9ad2d.dir/build
+Building C object CMakeFiles/cmTC_9ad2d.dir/HAVE_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_9ad2d.dir/HAVE_MALLOC_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9ad2d.dir/HAVE_MALLOC_H.c.o] Error 1
+make: *** [cmTC_9ad2d/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb1f3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_eb1f3.dir/build.make CMakeFiles/cmTC_eb1f3.dir/build
+Building C object CMakeFiles/cmTC_eb1f3.dir/HAVE_NDIR_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_eb1f3.dir/HAVE_NDIR_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_NDIR_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_NDIR_H.c:2:10: fatal error: 'ndir.h' file not found
+#include <ndir.h>
+         ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_eb1f3.dir/HAVE_NDIR_H.c.o] Error 1
+make: *** [cmTC_eb1f3/fast] Error 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files port.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e11a6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e11a6.dir/build.make CMakeFiles/cmTC_e11a6.dir/build
+Building C object CMakeFiles/cmTC_e11a6.dir/HAVE_PORT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e11a6.dir/HAVE_PORT_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_PORT_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_PORT_H.c:2:10: fatal error: 'port.h' file not found
+#include <port.h>
+         ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e11a6.dir/HAVE_PORT_H.c.o] Error 1
+make: *** [cmTC_e11a6/fast] Error 2
+
+Source:
+/* */
+#include <port.h>
+
+
+int main(void){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3603/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d3603.dir/build.make CMakeFiles/cmTC_d3603.dir/build
+Building C object CMakeFiles/cmTC_d3603.dir/HAVE_SELECT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_d3603.dir/HAVE_SELECT_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SELECT_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SELECT_H.c:2:10: fatal error: 'select.h' file not found
+#include <select.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d3603.dir/HAVE_SELECT_H.c.o] Error 1
+make: *** [cmTC_d3603/fast] Error 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb7d0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_eb7d0.dir/build.make CMakeFiles/cmTC_eb7d0.dir/build
+Building C object CMakeFiles/cmTC_eb7d0.dir/HAVE_SYS_NDIR_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_eb7d0.dir/HAVE_SYS_NDIR_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_NDIR_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_NDIR_H.c:2:10: fatal error: 'sys/ndir.h' file not found
+#include <sys/ndir.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_eb7d0.dir/HAVE_SYS_NDIR_H.c.o] Error 1
+make: *** [cmTC_eb7d0/fast] Error 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/pte.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbaf0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bbaf0.dir/build.make CMakeFiles/cmTC_bbaf0.dir/build
+Building C object CMakeFiles/cmTC_bbaf0.dir/HAVE_SYS_PTE_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_bbaf0.dir/HAVE_SYS_PTE_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PTE_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PTE_H.c:2:10: fatal error: 'sys/pte.h' file not found
+#include <sys/pte.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bbaf0.dir/HAVE_SYS_PTE_H.c.o] Error 1
+make: *** [cmTC_bbaf0/fast] Error 2
+
+Source:
+/* */
+#include <sys/pte.h>
+
+
+int main(void){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38a77/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_38a77.dir/build.make CMakeFiles/cmTC_38a77.dir/build
+Building C object CMakeFiles/cmTC_38a77.dir/HAVE_SYNCH_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_38a77.dir/HAVE_SYNCH_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYNCH_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYNCH_H.c:2:10: fatal error: 'synch.h' file not found
+#include <synch.h>
+         ^~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_38a77.dir/HAVE_SYNCH_H.c.o] Error 1
+make: *** [cmTC_38a77/fast] Error 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(void){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4e13/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e4e13.dir/build.make CMakeFiles/cmTC_e4e13.dir/build
+Building C object CMakeFiles/cmTC_e4e13.dir/HAVE_SYSENT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e4e13.dir/HAVE_SYSENT_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYSENT_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYSENT_H.c:2:10: fatal error: 'sysent.h' file not found
+#include <sysent.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e4e13.dir/HAVE_SYSENT_H.c.o] Error 1
+make: *** [cmTC_e4e13/fast] Error 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25a89/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_25a89.dir/build.make CMakeFiles/cmTC_25a89.dir/build
+Building C object CMakeFiles/cmTC_25a89.dir/HAVE_SYS_FPU_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_25a89.dir/HAVE_SYS_FPU_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FPU_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FPU_H.c:2:10: fatal error: 'sys/fpu.h' file not found
+#include <sys/fpu.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_25a89.dir/HAVE_SYS_FPU_H.c.o] Error 1
+make: *** [cmTC_25a89/fast] Error 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/prctl.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3434/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a3434.dir/build.make CMakeFiles/cmTC_a3434.dir/build
+Building C object CMakeFiles/cmTC_a3434.dir/HAVE_SYS_PRCTL_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a3434.dir/HAVE_SYS_PRCTL_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PRCTL_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PRCTL_H.c:2:10: fatal error: 'sys/prctl.h' file not found
+#include <sys/prctl.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a3434.dir/HAVE_SYS_PRCTL_H.c.o] Error 1
+make: *** [cmTC_a3434/fast] Error 2
+
+Source:
+/* */
+#include <sys/prctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc0a9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dc0a9.dir/build.make CMakeFiles/cmTC_dc0a9.dir/build
+Building C object CMakeFiles/cmTC_dc0a9.dir/HAVE_SYS_STREAM_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_dc0a9.dir/HAVE_SYS_STREAM_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STREAM_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STREAM_H.c:2:10: fatal error: 'sys/stream.h' file not found
+#include <sys/stream.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_dc0a9.dir/HAVE_SYS_STREAM_H.c.o] Error 1
+make: *** [cmTC_dc0a9/fast] Error 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/termcap.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c6fc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7c6fc.dir/build.make CMakeFiles/cmTC_7c6fc.dir/build
+Building C object CMakeFiles/cmTC_7c6fc.dir/HAVE_SYS_TERMCAP_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_7c6fc.dir/HAVE_SYS_TERMCAP_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TERMCAP_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TERMCAP_H.c:2:10: fatal error: 'sys/termcap.h' file not found
+#include <sys/termcap.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7c6fc.dir/HAVE_SYS_TERMCAP_H.c.o] Error 1
+make: *** [cmTC_7c6fc/fast] Error 2
+
+Source:
+/* */
+#include <sys/termcap.h>
+
+
+int main(void){return 0;}
+
+Determining if files asm/termbits.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88857/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_88857.dir/build.make CMakeFiles/cmTC_88857.dir/build
+Building C object CMakeFiles/cmTC_88857.dir/HAVE_ASM_TERMBITS_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_88857.dir/HAVE_ASM_TERMBITS_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ASM_TERMBITS_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ASM_TERMBITS_H.c:2:10: fatal error: 'asm/termbits.h' file not found
+#include <asm/termbits.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_88857.dir/HAVE_ASM_TERMBITS_H.c.o] Error 1
+make: *** [cmTC_88857/fast] Error 2
+
+Source:
+/* */
+#include <asm/termbits.h>
+
+
+int main(void){return 0;}
+
+Determining if files termbits.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c66a6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c66a6.dir/build.make CMakeFiles/cmTC_c66a6.dir/build
+Building C object CMakeFiles/cmTC_c66a6.dir/HAVE_TERMBITS_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c66a6.dir/HAVE_TERMBITS_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_TERMBITS_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_TERMBITS_H.c:2:10: fatal error: 'termbits.h' file not found
+#include <termbits.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c66a6.dir/HAVE_TERMBITS_H.c.o] Error 1
+make: *** [cmTC_c66a6/fast] Error 2
+
+Source:
+/* */
+#include <termbits.h>
+
+
+int main(void){return 0;}
+
+Determining if files termio.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b2b7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4b2b7.dir/build.make CMakeFiles/cmTC_4b2b7.dir/build
+Building C object CMakeFiles/cmTC_4b2b7.dir/HAVE_TERMIO_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_4b2b7.dir/HAVE_TERMIO_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_TERMIO_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_TERMIO_H.c:2:10: fatal error: 'termio.h' file not found
+#include <termio.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4b2b7.dir/HAVE_TERMIO_H.c.o] Error 1
+make: *** [cmTC_4b2b7/fast] Error 2
+
+Source:
+/* */
+#include <termio.h>
+
+
+int main(void){return 0;}
+
+Determining if files varargs.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61c2f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_61c2f.dir/build.make CMakeFiles/cmTC_61c2f.dir/build
+Building C object CMakeFiles/cmTC_61c2f.dir/HAVE_VARARGS_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_61c2f.dir/HAVE_VARARGS_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_VARARGS_H.c
+In file included from /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_VARARGS_H.c:2:
+/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/varargs.h:25:4: error: "Please use <stdarg.h> instead of <varargs.h>"
+  #error "Please use <stdarg.h> instead of <varargs.h>"
+   ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_61c2f.dir/HAVE_VARARGS_H.c.o] Error 1
+make: *** [cmTC_61c2f/fast] Error 2
+
+Source:
+/* */
+#include <varargs.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/utime.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e067/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9e067.dir/build.make CMakeFiles/cmTC_9e067.dir/build
+Building C object CMakeFiles/cmTC_9e067.dir/HAVE_SYS_UTIME_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_9e067.dir/HAVE_SYS_UTIME_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c:2:10: fatal error: 'sys/utime.h' file not found
+#include <sys/utime.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9e067.dir/HAVE_SYS_UTIME_H.c.o] Error 1
+make: *** [cmTC_9e067/fast] Error 2
+
+Source:
+/* */
+#include <sys/utime.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43767/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_43767.dir/build.make CMakeFiles/cmTC_43767.dir/build
+Building C object CMakeFiles/cmTC_43767.dir/HAVE_DEVPOLL.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_43767.dir/HAVE_DEVPOLL.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_DEVPOLL.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_DEVPOLL.c:2:10: fatal error: 'sys/devpoll.h' file not found
+#include <sys/devpoll.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_43767.dir/HAVE_DEVPOLL.c.o] Error 1
+make: *** [cmTC_43767/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac3bc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ac3bc.dir/build.make CMakeFiles/cmTC_ac3bc.dir/build
+Building C object CMakeFiles/cmTC_ac3bc.dir/HAVE_SYS_DEVPOLL_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ac3bc.dir/HAVE_SYS_DEVPOLL_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_DEVPOLL_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_DEVPOLL_H.c:2:10: fatal error: 'sys/devpoll.h' file not found
+#include <sys/devpoll.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ac3bc.dir/HAVE_SYS_DEVPOLL_H.c.o] Error 1
+make: *** [cmTC_ac3bc/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/epoll.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0210/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d0210.dir/build.make CMakeFiles/cmTC_d0210.dir/build
+Building C object CMakeFiles/cmTC_d0210.dir/HAVE_SYS_EPOLL_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_d0210.dir/HAVE_SYS_EPOLL_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EPOLL_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EPOLL_H.c:2:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d0210.dir/HAVE_SYS_EPOLL_H.c.o] Error 1
+make: *** [cmTC_d0210/fast] Error 2
+
+Source:
+/* */
+#include <sys/epoll.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ptem.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c43d4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c43d4.dir/build.make CMakeFiles/cmTC_c43d4.dir/build
+Building C object CMakeFiles/cmTC_c43d4.dir/HAVE_SYS_PTEM_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c43d4.dir/HAVE_SYS_PTEM_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PTEM_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PTEM_H.c:2:10: fatal error: 'sys/ptem.h' file not found
+#include <sys/ptem.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c43d4.dir/HAVE_SYS_PTEM_H.c.o] Error 1
+make: *** [cmTC_c43d4/fast] Error 2
+
+Source:
+/* */
+#include <sys/ptem.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58184/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_58184.dir/build.make CMakeFiles/cmTC_58184.dir/build
+Building C object CMakeFiles/cmTC_58184.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_aligned_malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_58184.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_58184
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58184.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_aligned_malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_58184.dir/CheckFunctionExists.c.o  -o cmTC_58184 
+Undefined symbols for architecture x86_64:
+  "__aligned_malloc", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_58184] Error 1
+make: *** [cmTC_58184/fast] Error 2
+
+
+Determining if the function _aligned_free exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5769/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f5769.dir/build.make CMakeFiles/cmTC_f5769.dir/build
+Building C object CMakeFiles/cmTC_f5769.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_aligned_free -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_f5769.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5769
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5769.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_aligned_free -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f5769.dir/CheckFunctionExists.c.o  -o cmTC_f5769 
+Undefined symbols for architecture x86_64:
+  "__aligned_free", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f5769] Error 1
+make: *** [cmTC_f5769/fast] Error 2
+
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4208/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4208.dir/build.make CMakeFiles/cmTC_d4208.dir/build
+Building C object CMakeFiles/cmTC_d4208.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=printstack -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_d4208.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d4208
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4208.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=printstack -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4208.dir/CheckFunctionExists.c.o  -o cmTC_d4208 
+Undefined symbols for architecture x86_64:
+  "_printstack", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d4208] Error 1
+make: *** [cmTC_d4208/fast] Error 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81410/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_81410.dir/build.make CMakeFiles/cmTC_81410.dir/build
+Building C object CMakeFiles/cmTC_81410.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=bmove -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_81410.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_81410
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81410.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=bmove -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81410.dir/CheckFunctionExists.c.o  -o cmTC_81410 
+Undefined symbols for architecture x86_64:
+  "_bmove", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_81410] Error 1
+make: *** [cmTC_81410/fast] Error 2
+
+
+Determining if the function cuserid exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb4a3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fb4a3.dir/build.make CMakeFiles/cmTC_fb4a3.dir/build
+Building C object CMakeFiles/cmTC_fb4a3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cuserid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_fb4a3.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb4a3
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb4a3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cuserid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fb4a3.dir/CheckFunctionExists.c.o  -o cmTC_fb4a3 
+Undefined symbols for architecture x86_64:
+  "_cuserid", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fb4a3] Error 1
+make: *** [cmTC_fb4a3/fast] Error 2
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4de04/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4de04.dir/build.make CMakeFiles/cmTC_4de04.dir/build
+Building C object CMakeFiles/cmTC_4de04.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=directio -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_4de04.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4de04
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4de04.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=directio -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4de04.dir/CheckFunctionExists.c.o  -o cmTC_4de04 
+Undefined symbols for architecture x86_64:
+  "_directio", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_4de04] Error 1
+make: *** [cmTC_4de04/fast] Error 2
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b874c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b874c.dir/build.make CMakeFiles/cmTC_b874c.dir/build
+Building C object CMakeFiles/cmTC_b874c.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_doprnt -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b874c.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b874c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b874c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_doprnt -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b874c.dir/CheckFunctionExists.c.o  -o cmTC_b874c 
+Undefined symbols for architecture x86_64:
+  "__doprnt", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b874c] Error 1
+make: *** [cmTC_b874c/fast] Error 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48182/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_48182.dir/build.make CMakeFiles/cmTC_48182.dir/build
+Building C object CMakeFiles/cmTC_48182.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_48182.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48182
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48182.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48182.dir/CheckFunctionExists.c.o  -o cmTC_48182 
+Undefined symbols for architecture x86_64:
+  "_compress", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_48182] Error 1
+make: *** [cmTC_48182/fast] Error 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e84e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3e84e.dir/build.make CMakeFiles/cmTC_3e84e.dir/build
+Building C object CMakeFiles/cmTC_3e84e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fconvert -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_3e84e.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3e84e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e84e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fconvert -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3e84e.dir/CheckFunctionExists.c.o  -o cmTC_3e84e 
+Undefined symbols for architecture x86_64:
+  "_fconvert", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3e84e] Error 1
+make: *** [cmTC_3e84e/fast] Error 2
+
+
+Determining if the fdatasync exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b9df/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3b9df.dir/build.make CMakeFiles/cmTC_3b9df.dir/build
+Building C object CMakeFiles/cmTC_3b9df.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_3b9df.dir/CheckSymbolExists.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'fdatasync'
+  return ((int*)(&fdatasync))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3b9df.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_3b9df/fast] Error 2
+
+File /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function fedisableexcept exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc352/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bc352.dir/build.make CMakeFiles/cmTC_bc352.dir/build
+Building C object CMakeFiles/cmTC_bc352.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fedisableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_bc352.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc352
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc352.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fedisableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bc352.dir/CheckFunctionExists.c.o  -o cmTC_bc352 
+Undefined symbols for architecture x86_64:
+  "_fedisableexcept", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_bc352] Error 1
+make: *** [cmTC_bc352/fast] Error 2
+
+
+Determining if the function fpsetmask exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9e8f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c9e8f.dir/build.make CMakeFiles/cmTC_c9e8f.dir/build
+Building C object CMakeFiles/cmTC_c9e8f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fpsetmask -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c9e8f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9e8f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9e8f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fpsetmask -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c9e8f.dir/CheckFunctionExists.c.o  -o cmTC_c9e8f 
+Undefined symbols for architecture x86_64:
+  "_fpsetmask", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c9e8f] Error 1
+make: *** [cmTC_c9e8f/fast] Error 2
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9eb5c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9eb5c.dir/build.make CMakeFiles/cmTC_9eb5c.dir/build
+Building C object CMakeFiles/cmTC_9eb5c.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_9eb5c.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9eb5c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eb5c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9eb5c.dir/CheckFunctionExists.c.o  -o cmTC_9eb5c 
+Undefined symbols for architecture x86_64:
+  "_gethostbyaddr_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9eb5c] Error 1
+make: *** [cmTC_9eb5c/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59b9f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_59b9f.dir/build.make CMakeFiles/cmTC_59b9f.dir/build
+Building C object CMakeFiles/cmTC_59b9f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethrtime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_59b9f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59b9f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59b9f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethrtime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_59b9f.dir/CheckFunctionExists.c.o  -o cmTC_59b9f 
+Undefined symbols for architecture x86_64:
+  "_gethrtime", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_59b9f] Error 1
+make: *** [cmTC_59b9f/fast] Error 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b40ac/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b40ac.dir/build.make CMakeFiles/cmTC_b40ac.dir/build
+Building C object CMakeFiles/cmTC_b40ac.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpassphrase -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b40ac.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b40ac
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b40ac.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpassphrase -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b40ac.dir/CheckFunctionExists.c.o  -o cmTC_b40ac 
+Undefined symbols for architecture x86_64:
+  "_getpassphrase", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b40ac] Error 1
+make: *** [cmTC_b40ac/fast] Error 2
+
+
+Determining if the function mallinfo exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98029/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_98029.dir/build.make CMakeFiles/cmTC_98029.dir/build
+Building C object CMakeFiles/cmTC_98029.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mallinfo -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_98029.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98029
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98029.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mallinfo -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_98029.dir/CheckFunctionExists.c.o  -o cmTC_98029 
+Undefined symbols for architecture x86_64:
+  "_mallinfo", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_98029] Error 1
+make: *** [cmTC_98029/fast] Error 2
+
+
+Determining if the function mmap64 exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db002/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_db002.dir/build.make CMakeFiles/cmTC_db002.dir/build
+Building C object CMakeFiles/cmTC_db002.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mmap64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_db002.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db002
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db002.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mmap64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_db002.dir/CheckFunctionExists.c.o  -o cmTC_db002 
+Undefined symbols for architecture x86_64:
+  "_mmap64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_db002] Error 1
+make: *** [cmTC_db002/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94a74/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_94a74.dir/build.make CMakeFiles/cmTC_94a74.dir/build
+Building C object CMakeFiles/cmTC_94a74.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=port_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_94a74.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94a74
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94a74.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=port_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_94a74.dir/CheckFunctionExists.c.o  -o cmTC_94a74 
+Undefined symbols for architecture x86_64:
+  "_port_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_94a74] Error 1
+make: *** [cmTC_94a74/fast] Error 2
+
+
+Determining if the function posix_fallocate exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58413/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_58413.dir/build.make CMakeFiles/cmTC_58413.dir/build
+Building C object CMakeFiles/cmTC_58413.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=posix_fallocate -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_58413.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_58413
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58413.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=posix_fallocate -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_58413.dir/CheckFunctionExists.c.o  -o cmTC_58413 
+Undefined symbols for architecture x86_64:
+  "_posix_fallocate", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_58413] Error 1
+make: *** [cmTC_58413/fast] Error 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddd19/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ddd19.dir/build.make CMakeFiles/cmTC_ddd19.dir/build
+Building C object CMakeFiles/cmTC_ddd19.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_attr_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ddd19.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ddd19
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd19.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_attr_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ddd19.dir/CheckFunctionExists.c.o  -o cmTC_ddd19 
+Undefined symbols for architecture x86_64:
+  "_pthread_attr_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_ddd19] Error 1
+make: *** [cmTC_ddd19/fast] Error 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25086/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_25086.dir/build.make CMakeFiles/cmTC_25086.dir/build
+Building C object CMakeFiles/cmTC_25086.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_condattr_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_25086.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25086
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25086.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_condattr_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_25086.dir/CheckFunctionExists.c.o  -o cmTC_25086 
+Undefined symbols for architecture x86_64:
+  "_pthread_condattr_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_25086] Error 1
+make: *** [cmTC_25086/fast] Error 2
+
+
+Determining if the function pthread_condattr_setclock exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3fa0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b3fa0.dir/build.make CMakeFiles/cmTC_b3fa0.dir/build
+Building C object CMakeFiles/cmTC_b3fa0.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_condattr_setclock -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b3fa0.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b3fa0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3fa0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_condattr_setclock -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b3fa0.dir/CheckFunctionExists.c.o  -o cmTC_b3fa0 
+Undefined symbols for architecture x86_64:
+  "_pthread_condattr_setclock", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b3fa0] Error 1
+make: *** [cmTC_b3fa0/fast] Error 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e6ca/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e6ca.dir/build.make CMakeFiles/cmTC_1e6ca.dir/build
+Building C object CMakeFiles/cmTC_1e6ca.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_threadmask -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_1e6ca.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e6ca
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e6ca.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_threadmask -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e6ca.dir/CheckFunctionExists.c.o  -o cmTC_1e6ca 
+Undefined symbols for architecture x86_64:
+  "_pthread_threadmask", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1e6ca] Error 1
+make: *** [cmTC_1e6ca/fast] Error 2
+
+
+Determining if the function re_comp exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69968/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_69968.dir/build.make CMakeFiles/cmTC_69968.dir/build
+Building C object CMakeFiles/cmTC_69968.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=re_comp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_69968.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69968
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69968.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=re_comp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_69968.dir/CheckFunctionExists.c.o  -o cmTC_69968 
+Undefined symbols for architecture x86_64:
+  "_re_comp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_69968] Error 1
+make: *** [cmTC_69968/fast] Error 2
+
+
+Determining if the function rwlock_init exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9db51/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9db51.dir/build.make CMakeFiles/cmTC_9db51.dir/build
+Building C object CMakeFiles/cmTC_9db51.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=rwlock_init -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_9db51.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9db51
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9db51.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=rwlock_init -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9db51.dir/CheckFunctionExists.c.o  -o cmTC_9db51 
+Undefined symbols for architecture x86_64:
+  "_rwlock_init", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9db51] Error 1
+make: *** [cmTC_9db51/fast] Error 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4be5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c4be5.dir/build.make CMakeFiles/cmTC_c4be5.dir/build
+Building C object CMakeFiles/cmTC_c4be5.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setfd -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c4be5.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c4be5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4be5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setfd -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c4be5.dir/CheckFunctionExists.c.o  -o cmTC_c4be5 
+Undefined symbols for architecture x86_64:
+  "_setfd", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c4be5] Error 1
+make: *** [cmTC_c4be5/fast] Error 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb94b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cb94b.dir/build.make CMakeFiles/cmTC_cb94b.dir/build
+Building C object CMakeFiles/cmTC_cb94b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigthreadmask -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_cb94b.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb94b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb94b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigthreadmask -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb94b.dir/CheckFunctionExists.c.o  -o cmTC_cb94b 
+Undefined symbols for architecture x86_64:
+  "_sigthreadmask", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_cb94b] Error 1
+make: *** [cmTC_cb94b/fast] Error 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_106bc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_106bc.dir/build.make CMakeFiles/cmTC_106bc.dir/build
+Building C object CMakeFiles/cmTC_106bc.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tell -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_106bc.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_106bc
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_106bc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=tell -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_106bc.dir/CheckFunctionExists.c.o  -o cmTC_106bc 
+Undefined symbols for architecture x86_64:
+  "_tell", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_106bc] Error 1
+make: *** [cmTC_106bc/fast] Error 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c65f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c65f.dir/build.make CMakeFiles/cmTC_1c65f.dir/build
+Building C object CMakeFiles/cmTC_1c65f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=thr_setconcurrency -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_1c65f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1c65f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c65f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=thr_setconcurrency -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c65f.dir/CheckFunctionExists.c.o  -o cmTC_1c65f 
+Undefined symbols for architecture x86_64:
+  "_thr_setconcurrency", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1c65f] Error 1
+make: *** [cmTC_1c65f/fast] Error 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0479/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e0479.dir/build.make CMakeFiles/cmTC_e0479.dir/build
+Building C object CMakeFiles/cmTC_e0479.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=thr_yield -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e0479.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0479
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0479.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=thr_yield -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0479.dir/CheckFunctionExists.c.o  -o cmTC_e0479 
+Undefined symbols for architecture x86_64:
+  "_thr_yield", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e0479] Error 1
+make: *** [cmTC_e0479/fast] Error 2
+
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe26a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fe26a.dir/build.make CMakeFiles/cmTC_fe26a.dir/build
+Building C object CMakeFiles/cmTC_fe26a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_fe26a.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe26a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe26a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fe26a.dir/CheckFunctionExists.c.o  -o cmTC_fe26a 
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fe26a] Error 1
+make: *** [cmTC_fe26a/fast] Error 2
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c126d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c126d.dir/build.make CMakeFiles/cmTC_c126d.dir/build
+Building C object CMakeFiles/cmTC_c126d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ntohll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c126d.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c126d
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c126d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ntohll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c126d.dir/CheckFunctionExists.c.o  -o cmTC_c126d 
+Undefined symbols for architecture x86_64:
+  "_ntohll", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c126d] Error 1
+make: *** [cmTC_c126d/fast] Error 2
+
+
+Determining if the function epoll_create exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fde5b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fde5b.dir/build.make CMakeFiles/cmTC_fde5b.dir/build
+Building C object CMakeFiles/cmTC_fde5b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=epoll_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_fde5b.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fde5b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde5b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=epoll_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fde5b.dir/CheckFunctionExists.c.o  -o cmTC_fde5b 
+Undefined symbols for architecture x86_64:
+  "_epoll_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fde5b] Error 1
+make: *** [cmTC_fde5b/fast] Error 2
+
+
+Determining if the function epoll_ctl exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06ffe/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_06ffe.dir/build.make CMakeFiles/cmTC_06ffe.dir/build
+Building C object CMakeFiles/cmTC_06ffe.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=epoll_ctl -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_06ffe.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_06ffe
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06ffe.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=epoll_ctl -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_06ffe.dir/CheckFunctionExists.c.o  -o cmTC_06ffe 
+Undefined symbols for architecture x86_64:
+  "_epoll_ctl", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_06ffe] Error 1
+make: *** [cmTC_06ffe/fast] Error 2
+
+
+Determining if files asm/msr.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd33f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bd33f.dir/build.make CMakeFiles/cmTC_bd33f.dir/build
+Building C object CMakeFiles/cmTC_bd33f.dir/HAVE_ASM_MSR_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_bd33f.dir/HAVE_ASM_MSR_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ASM_MSR_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ASM_MSR_H.c:2:10: fatal error: 'asm/msr.h' file not found
+#include <asm/msr.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bd33f.dir/HAVE_ASM_MSR_H.c.o] Error 1
+make: *** [cmTC_bd33f/fast] Error 2
+
+Source:
+/* */
+#include <asm/msr.h>
+
+
+int main(void){return 0;}
+
+Determining if files ia64intrin.h exist failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_124be/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_124be.dir/build.make CMakeFiles/cmTC_124be.dir/build
+Building C object CMakeFiles/cmTC_124be.dir/HAVE_IA64INTRIN_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_124be.dir/HAVE_IA64INTRIN_H.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IA64INTRIN_H.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_IA64INTRIN_H.c:2:10: fatal error: 'ia64intrin.h' file not found
+#include <ia64intrin.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_124be.dir/HAVE_IA64INTRIN_H.c.o] Error 1
+make: *** [cmTC_124be/fast] Error 2
+
+Source:
+/* */
+#include <ia64intrin.h>
+
+
+int main(void){return 0;}
+
+Determining if the function read_real_time exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6784f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6784f.dir/build.make CMakeFiles/cmTC_6784f.dir/build
+Building C object CMakeFiles/cmTC_6784f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=read_real_time -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_6784f.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6784f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6784f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=read_real_time -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6784f.dir/CheckFunctionExists.c.o  -o cmTC_6784f 
+Undefined symbols for architecture x86_64:
+  "_read_real_time", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6784f] Error 1
+make: *** [cmTC_6784f/fast] Error 2
+
+
+Determining if the function rdtscll exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3019/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c3019.dir/build.make CMakeFiles/cmTC_c3019.dir/build
+Building C object CMakeFiles/cmTC_c3019.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=rdtscll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c3019.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3019
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3019.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=rdtscll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3019.dir/CheckFunctionExists.c.o  -o cmTC_c3019 
+Undefined symbols for architecture x86_64:
+  "_rdtscll", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c3019] Error 1
+make: *** [cmTC_c3019/fast] Error 2
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77436/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_77436.dir/build.make CMakeFiles/cmTC_77436.dir/build
+Building C object CMakeFiles/cmTC_77436.dir/SIZEOF_UCHAR.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_77436.dir/SIZEOF_UCHAR.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:27:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:28:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:29:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:30:12: error: use of undeclared identifier 'uchar'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:31:12: error: use of undeclared identifier 'uchar'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uchar))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_77436.dir/SIZEOF_UCHAR.c.o] Error 1
+make: *** [cmTC_77436/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ulong failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77783/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_77783.dir/build.make CMakeFiles/cmTC_77783.dir/build
+Building C object CMakeFiles/cmTC_77783.dir/SIZEOF_ULONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_77783.dir/SIZEOF_ULONG.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:27:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:27:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:28:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:28:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:29:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:29:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:30:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:30:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_77783.dir/SIZEOF_ULONG.c.o] Error 1
+make: *** [cmTC_77783/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ulong))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_215bc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_215bc.dir/build.make CMakeFiles/cmTC_215bc.dir/build
+Building C object CMakeFiles/cmTC_215bc.dir/SIZEOF_INT8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_215bc.dir/SIZEOF_INT8.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:27:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:27:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:28:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:28:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:29:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:29:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:30:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:30:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:31:12: error: use of undeclared identifier 'int8'; did you mean 'int'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:31:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:25:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int8))
+                    ^~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_215bc.dir/SIZEOF_INT8.c.o] Error 1
+make: *** [cmTC_215bc/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b162e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b162e.dir/build.make CMakeFiles/cmTC_b162e.dir/build
+Building C object CMakeFiles/cmTC_b162e.dir/SIZEOF_UINT8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b162e.dir/SIZEOF_UINT8.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:27:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:28:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:29:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:30:12: error: use of undeclared identifier 'uint8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:31:12: error: use of undeclared identifier 'uint8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_b162e.dir/SIZEOF_UINT8.c.o] Error 1
+make: *** [cmTC_b162e/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ac9f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5ac9f.dir/build.make CMakeFiles/cmTC_5ac9f.dir/build
+Building C object CMakeFiles/cmTC_5ac9f.dir/SIZEOF_INT16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_5ac9f.dir/SIZEOF_INT16.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:27:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:28:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:29:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:30:12: error: use of undeclared identifier 'int16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:31:12: error: use of undeclared identifier 'int16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_5ac9f.dir/SIZEOF_INT16.c.o] Error 1
+make: *** [cmTC_5ac9f/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5714f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5714f.dir/build.make CMakeFiles/cmTC_5714f.dir/build
+Building C object CMakeFiles/cmTC_5714f.dir/SIZEOF_UINT16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_5714f.dir/SIZEOF_UINT16.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:27:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:28:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:29:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:30:12: error: use of undeclared identifier 'uint16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:31:12: error: use of undeclared identifier 'uint16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_5714f.dir/SIZEOF_UINT16.c.o] Error 1
+make: *** [cmTC_5714f/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74dae/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_74dae.dir/build.make CMakeFiles/cmTC_74dae.dir/build
+Building C object CMakeFiles/cmTC_74dae.dir/SIZEOF_INT32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_74dae.dir/SIZEOF_INT32.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:27:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:28:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:29:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:30:12: error: use of undeclared identifier 'int32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:31:12: error: use of undeclared identifier 'int32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_74dae.dir/SIZEOF_INT32.c.o] Error 1
+make: *** [cmTC_74dae/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_544fc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_544fc.dir/build.make CMakeFiles/cmTC_544fc.dir/build
+Building C object CMakeFiles/cmTC_544fc.dir/SIZEOF_UINT32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_544fc.dir/SIZEOF_UINT32.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:27:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:28:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:29:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:30:12: error: use of undeclared identifier 'uint32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:31:12: error: use of undeclared identifier 'uint32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_544fc.dir/SIZEOF_UINT32.c.o] Error 1
+make: *** [cmTC_544fc/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28e97/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_28e97.dir/build.make CMakeFiles/cmTC_28e97.dir/build
+Building C object CMakeFiles/cmTC_28e97.dir/SIZEOF_INT64.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_28e97.dir/SIZEOF_INT64.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:27:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:28:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:29:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:30:12: error: use of undeclared identifier 'int64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:31:12: error: use of undeclared identifier 'int64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(int64))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_28e97.dir/SIZEOF_INT64.c.o] Error 1
+make: *** [cmTC_28e97/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_484d7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_484d7.dir/build.make CMakeFiles/cmTC_484d7.dir/build
+Building C object CMakeFiles/cmTC_484d7.dir/SIZEOF_UINT64.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_484d7.dir/SIZEOF_UINT64.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:27:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:28:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:29:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:30:12: error: use of undeclared identifier 'uint64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:31:12: error: use of undeclared identifier 'uint64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:25:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(uint64))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_484d7.dir/SIZEOF_UINT64.c.o] Error 1
+make: *** [cmTC_484d7/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of bool failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53ea7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_53ea7.dir/build.make CMakeFiles/cmTC_53ea7.dir/build
+Building C object CMakeFiles/cmTC_53ea7.dir/SIZEOF_BOOL.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_53ea7.dir/SIZEOF_BOOL.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:26:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:26:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:27:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:27:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:28:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:28:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:29:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:29:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:30:12: error: use of undeclared identifier 'bool'; did you mean '_Bool'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                     ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:30:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:24:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(bool))
+                    ^~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_53ea7.dir/SIZEOF_BOOL.c.o] Error 1
+make: *** [cmTC_53ea7/fast] Error 2
+
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test TIME_T_UNSIGNED failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20834/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_20834.dir/build.make CMakeFiles/cmTC_20834.dir/build
+Building C object CMakeFiles/cmTC_20834.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -DTIME_T_UNSIGNED -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_20834.dir/src.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:4:16: error: use of undeclared identifier 'time_t'
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+               ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_20834.dir/src.c.o] Error 1
+make: *** [cmTC_20834/fast] Error 2
+
+Source file was:
+
+int main()
+{
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+  return 0;
+}
+Performing C SOURCE FILE Test HAVE_TIMESPEC_TS_SEC failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5f33/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b5f33.dir/build.make CMakeFiles/cmTC_b5f33.dir/build
+Building C object CMakeFiles/cmTC_b5f33.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -DHAVE_TIMESPEC_TS_SEC -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b5f33.dir/src.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:7:11: error: no member named 'ts_sec' in 'struct timespec'; did you mean 'tv_sec'?
+  abstime.ts_sec = time(NULL)+1;
+          ^~~~~~
+          tv_sec
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_timespec.h:35:18: note: 'tv_sec' declared here
+        __darwin_time_t tv_sec;
+                        ^
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:8:11: error: no member named 'ts_nsec' in 'struct timespec'; did you mean 'tv_nsec'?
+  abstime.ts_nsec = 0;
+          ^~~~~~~
+          tv_nsec
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_timespec.h:36:18: note: 'tv_nsec' declared here
+        long            tv_nsec;
+                        ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_b5f33.dir/src.c.o] Error 1
+make: *** [cmTC_b5f33/fast] Error 2
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int ac, char **av)
+{
+  struct timespec abstime;
+  abstime.ts_sec = time(NULL)+1;
+  abstime.ts_nsec = 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_PTHREAD_YIELD_ZERO_ARG failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81831/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_81831.dir/build.make CMakeFiles/cmTC_81831.dir/build
+Building CXX object CMakeFiles/cmTC_81831.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -DHAVE_PTHREAD_YIELD_ZERO_ARG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_81831.dir/src.cxx.o -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:5:3: error: use of undeclared identifier 'pthread_yield'
+  pthread_yield();
+  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_81831.dir/src.cxx.o] Error 1
+make: *** [cmTC_81831/fast] Error 2
+
+Source file was:
+
+#include <pthread.h>
+int main()
+{
+  pthread_yield();
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_BSS_START failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d9f5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6d9f5.dir/build.make CMakeFiles/cmTC_6d9f5.dir/build
+Building C object CMakeFiles/cmTC_6d9f5.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -DHAVE_BSS_START -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_6d9f5.dir/src.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6d9f5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d9f5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE_BSS_START -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6d9f5.dir/src.c.o  -o cmTC_6d9f5 
+Undefined symbols for architecture x86_64:
+  "___bss_start", referenced from:
+      _main in src.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6d9f5] Error 1
+make: *** [cmTC_6d9f5/fast] Error 2
+
+Source file was:
+
+  int main(int argc, char **argv) 
+  {
+    extern char *__bss_start;
+    return __bss_start ? 1 : 0;
+  }
+Performing C++ SOURCE FILE Test HAVE_SOLARIS_STYLE_GETHOST failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b77fd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b77fd.dir/build.make CMakeFiles/cmTC_b77fd.dir/build
+Building CXX object CMakeFiles/cmTC_b77fd.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -DHAVE_SOLARIS_STYLE_GETHOST -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b77fd.dir/src.cxx.o -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:16:8: error: use of undeclared identifier 'gethostbyaddr_r'
+       gethostbyaddr_r((const char *) 0,
+       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b77fd.dir/src.cxx.o] Error 1
+make: *** [cmTC_b77fd/fast] Error 2
+
+Source file was:
+
+    #undef inline
+    #if !defined(SCO) && !defined(__osf__) && !defined(_REENTRANT)
+    #define _REENTRANT
+    #endif
+    #include <pthread.h>
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    int main()
+    {
+
+       struct hostent *foo =
+       gethostbyaddr_r((const char *) 0,
+          0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+       return 0;
+    }
+  
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9da0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a9da0.dir/build.make CMakeFiles/cmTC_a9da0.dir/build
+Building C object CMakeFiles/cmTC_a9da0.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a9da0.dir/CheckIncludeFile.c.o   -c /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'netinet/in6.h' file not found
+#include <netinet/in6.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a9da0.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_a9da0/fast] Error 2
+
+
+Determining if the function mbscmp exists failed with the following output:
+Change Dir: /Users/caopeng/inception/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfb35/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dfb35.dir/build.make CMakeFiles/cmTC_dfb35.dir/build
+Building C object CMakeFiles/cmTC_dfb35.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -DCHECK_FUNCTION_EXISTS=mbscmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_dfb35.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dfb35
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfb35.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mbscmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dfb35.dir/CheckFunctionExists.c.o  -o cmTC_dfb35 
+Undefined symbols for architecture x86_64:
+  "_mbscmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_dfb35] Error 1
+make: *** [cmTC_dfb35/fast] Error 2
+
+
